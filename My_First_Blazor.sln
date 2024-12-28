@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My_First_Blazor", "My_First_Blazor\My_First_Blazor.csproj", "{487AB1EF-4B18-459C-8DEB-51649BD63C75}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{38D46366-9A6E-4898-B7B1-A429766C4385}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Models", "Data.Models\Data.Models.csproj", "{08970D22-D5ED-42B4-9A9B-1C7C1A4FDBBA}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{487AB1EF-4B18-459C-8DEB-51649BD63C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{487AB1EF-4B18-459C-8DEB-51649BD63C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{487AB1EF-4B18-459C-8DEB-51649BD63C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{487AB1EF-4B18-459C-8DEB-51649BD63C75}.Release|Any CPU.Build.0 = Release|Any CPU
 		{38D46366-9A6E-4898-B7B1-A429766C4385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{38D46366-9A6E-4898-B7B1-A429766C4385}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38D46366-9A6E-4898-B7B1-A429766C4385}.Release|Any CPU.ActiveCfg = Release|Any CPU
