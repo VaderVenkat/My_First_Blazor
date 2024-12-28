@@ -1,0 +1,37 @@
+﻿@page "/counter"
+@rendermode InteractiveServer
+
+<PageTitle>My blazor app</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<p>Click the button to increment the counter.</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<button class="btn btn-primary" @onclick="Clicking">Science me</button>
+
+<ul>
+    @foreach (var message in messages)
+    {
+        <li>@message</li>
+    }
+</ul>
+
+@code {
+    private int currentCount = 0;
+    private List<string> messages = new List<string>();
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    private void Clicking()
+    {
+        messages.Add("Darwin is great");
+        Console.WriteLine("Darwin is great");
+    }
+}
